@@ -18,7 +18,7 @@ public class ProductService {
         details.setProductName("Reebok");
         details.setProductPrice(9899);
         logger.debug("all the value of product object is initialized");
-        logger.info("end of ProductService.getDetails method with input   "+productName);
+        logger.debug("end of ProductService.getDetails method with input   "+productName);
         return details;
     }
 
